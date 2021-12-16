@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="script.js" defer></script>
+    <title>Magic 8 Ball | Final Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ball-container">
+        <label class="question-label" for="question">Ask me anything...</label>
+        <input
+          type="text"
+          name="question"
+          id="question"
+          class="question"
+          placeholder="The Magic 8 Ball knows all"
+          required="true"
+        />
+        <button class="ask-btn" id="ask-btn">Determine your fate</button>
+
+        <div id="answers" class="answers"></div>
+      </div>
+    </div>
+  </body>
+</html>
